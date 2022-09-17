@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="defaultHeader dragable">
+        <div class="header-logo-menu">
+            <div class="logo">CONY</div>
+            <div class="header-menu preventSelect non-dragable">
+                <ul>
+                    <li>Arquivo</li>
+                    <li>Editar</li>
+                    <li>Window</li>
+                    <li>Ferramentas</li>
+                    <li>Terminal</li>
+                    <li>Executar</li>
+                    <li>Ajuda</li>
+                </ul>
+            </div>
+            <!--header-menu-->
+        </div>
+        <!--header-logo-menu-->
+
+        <div class="windowControls preventSelect non-dragable">
+            <button id="minimize">-</button>
+            <button id="maximaze">[]</button>
+            <button id="quit">X</button>
+        </div>
+        <!--windowControls-->
+
+    </div><!--default-Header-->
+    <div class="container">
+        
+
+        <div class="default-interface">
+            
+            <div class="aside" id="aside">
+            
+                <div class="resizable-Files"></div><!--recisable-line-->
+                
+                <div class="container-twoParts-block">
+                    <div class="container-section-tipe-block">
+
+                        <div class="container-type-block preventSelect">
+                            
+                            <div class="circleTypeBlock" style="background-color: #068fff;"></div><!--circleTypeBlock-->
+                            
+                            <div class="name-type-block">
+                                <p>movimento</p>
+                            </div><!--name-type-block-->
+
+                        </div><!--tipe-block-->
+
+                        <div class="container-type-block preventSelect">
+                            
+                            <div class="circleTypeBlock" style="background-color: #884997;"></div><!--circleTypeBlock-->
+                            
+                            <div class="name-type-block">
+                                <p>aparência</p>
+                            </div><!--name-type-block-->
+
+                        </div><!--tipe-block-->
+
+                        <div class="container-type-block preventSelect">
+                            
+                            <div class="circleTypeBlock" style="background-color: hsl(293, 100%, 69%);"></div><!--circleTypeBlock-->
+                            
+                            <div class="name-type-block">
+                                <p>som</p>
+                            </div><!--name-type-block-->
+
+                        </div><!--tipe-block-->
+
+                        <div class="container-type-block preventSelect">
+                            
+                            <div class="circleTypeBlock" style="background-color: #ffc400;"></div><!--circleTypeBlock-->
+                            
+                            <div class="name-type-block">
+                                <p>eventos</p>
+                            </div><!--name-type-block-->
+
+                        </div><!--tipe-block-->
+
+                        <div class="container-type-block preventSelect">
+                            
+                            <div class="circleTypeBlock" style="background-color: #ff9100;"></div><!--circleTypeBlock-->
+                            
+                            <div class="name-type-block">
+                                <p>controles</p>
+                            </div><!--name-type-block-->
+
+                        </div><!--tipe-block-->
+
+                        <div class="container-type-block preventSelect">
+                            
+                            <div class="circleTypeBlock" style="background-color: hsl(207, 100%, 68%);"></div><!--circleTypeBlock-->
+                            
+                            <div class="name-type-block">
+                                <p>sensores</p>
+                            </div><!--name-type-block-->
+
+                        </div><!--tipe-block-->
+
+                        
+                        <div class="container-type-block preventSelect">
+                            
+                            <div class="circleTypeBlock" style="background-color: #45dd4d;"></div><!--circleTypeBlock-->
+                            
+                            <div class="name-type-block">
+                                <p href="#Operadores">operadores</p>
+                            </div><!--name-type-block-->
+
+                        </div><!--tipe-block-->
+
+                        <div class="container-type-block preventSelect">
+                            
+                            <div class="circleTypeBlock" style="background-color: #fd7200;"></div><!--circleTypeBlock-->
+                            
+                            <div class="name-type-block">
+                                <p>variáveis</p>
+                            </div><!--name-type-block-->
+
+                        </div><!--tipe-block-->
+
+                        <div class="container-type-block preventSelect">
+                            
+                            <div class="circleTypeBlock" style="background-color: #fd007e;"></div><!--circleTypeBlock-->
+                            
+                            <div class="name-type-block">
+                                <p>meus blocos</p>
+                            </div><!--name-type-block-->
+
+                        </div><!--tipe-block-->
+
+                    </div><!--container-type-block-->
+
+                    <div class="container-scrool-aside">
+                        <span class="preventSelect">EXPLORADOR</span>
+                        
+                        <div class="containerDefaultBlock">
+                            <h4 class="preventSelect">Movimento</h4>
+
+                            <!-- - - - - - - - - - - - - - - MOVIMENTO - - - - - - - - - - - - - - -->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path id="moveSteps" class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF"
+                                d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 157.82021713256836 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/>
+                                </svg>
+                            </div><!--block1-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path id="turnright" class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF"
+                                d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 166.70306015014648 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/>
+                                </svg>
+                            </div><!--block2-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF"
+                                d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 166.70306015014648 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/>
+                                </svg>
+                            </div><!--block3-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF"
+                                d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 236.33575439453125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/>
+                                </svg>
+                            </div><!--block4-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF"
+                                d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 198.70302295684814 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/>
+                                </svg>
+                            </div><!--block5-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF"
+                                d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 381.27315521240234 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/>
+                                </svg>
+                            </div><!--block6-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF"
+                                d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 343.64042377471924 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/>
+                                </svg>
+                            </div><!--block7-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 220.11700439453125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block8-->
+                            
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 279.93724822998047 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block9-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 148.94523239135742 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block10-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 148.9374008178711 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block11-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 148.94523239135742 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block12-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 148.9374008178711 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block13-->
+                            
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 179.2107391357422 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block14-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 392.88245391845703 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block15-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF" d="m 0,5 m 20,0 H 71.59367370605469 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block16-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF" d="m 0,5 m 20,0 H 71.59367370605469 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block17-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#3373CC" stroke-width="2" fill="#4C97FF" d="m 0,5 m 20,0 H 56.47651290893555 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block18-->
+                        
+                        
+                        
+                            <!-- - - - - - - - - - - - - - - APARÊNCIA - - - - - - - - - - - - - - -->
+                        
+                            <h4 class="preventSelect">Aparência</h4>
+                            
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF"  d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 259.85926246643066 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block1-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path id="looks_say" class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 103.34371376037598 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                <g data-id="x(l?*],M+2T1C;y#F7jL" data-argument-type="text" data-shapes="argument round" transform="translate(48,8)"><path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 35.34371376037598 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path><g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;"><text class="blocklyText textInputBlock preventSelect" x="17.67185688018799" y="18" dominant-baseline="middle" dy="0" text-anchor="middle">Olá!</text></g></g>
+
+                                <text class="blocklyText preventSelect" fill="white" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="15.124985694885254" transform="translate(8, 24) ">diga</text>
+                                </svg>
+                            </div><!--block2-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 315.88260650634766 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block3-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 159.36705780029297 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block4-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 277.257568359375 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block5-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 129.39049530029297 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block6-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 270.13275146484375 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block7-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 125.828125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block8-->
+                            
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 192.5311508178711 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block9-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 258.1404266357422 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block10-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 241.6328125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block11-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 279.875 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block12-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 198.75 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block13-->
+                            
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 60.89838409423828 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block14-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 72.49212265014648 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block15-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 253.23414611816406 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block16-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 277.2029457092285 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block17-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 277.2029457092285 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block18-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,5 m 20,0 H 164.28899765014648 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block19-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,5 m 20,0 H 160.7265625 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block20-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#774DCB" stroke-width="2" fill="#9966FF" d="m 0,5 m 20,0 H 66.26555633544922 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block21-->
+                            
+                        
+                        
+                            <!-- - - - - - - - - - - - - - - SOM - - - - - - - - - - - - - - -->
+                        
+                            <h4 class="preventSelect">Som</h4>
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#BD42BD" stroke-width="2" fill="#CF63CF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 254.09371948242188 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block1-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#BD42BD" stroke-width="2" fill="#CF63CF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 184.73434448242188 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block2-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#BD42BD" stroke-width="2" fill="#CF63CF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 147.1953125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block3-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#BD42BD" stroke-width="2" fill="#CF63CF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 246.078125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block4-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#BD42BD" stroke-width="2" fill="#CF63CF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 282.34375 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block5-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#BD42BD" stroke-width="2" fill="#CF63CF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 199.6484375 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block6-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#BD42BD" stroke-width="2" fill="#CF63CF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 187.84375 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block7-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#BD42BD" stroke-width="2" fill="#CF63CF" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 236.78125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block8-->
+                            
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#BD42BD" stroke-width="2" fill="#CF63CF" d="m 0,5 m 20,0 H 55.578125 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block9-->
+                        
+                        
+                        
+                        
+                            <!-- - - - - - - - - - - - - - - EVENTOS - - - - - - - - - - - - - - -->
+                        
+                            <h4 class="preventSelect">Eventos</h4>
+                        
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path id="whenGreenFlagStart" class="path" stroke="#CC9900" stroke-width="2" fill="#FFBF00" d="m 0,20 c 25,-22 71,-22 96,0 H 178.3125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block1-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#CC9900" stroke-width="2" fill="#FFBF00" d="m 0,20 c 25,-22 71,-22 96,0 H 336.859375 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block2-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#CC9900" stroke-width="2" fill="#FFBF00" d="m 0,20 c 25,-22 71,-22 96,0 H 209.46070861816406 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block3-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#CC9900" stroke-width="2" fill="#FFBF00" d="m 0,20 c 25,-22 71,-22 96,0 H 333.29681396484375 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block4-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#CC9900" stroke-width="2" fill="#FFBF00" d="m 0,20 c 25,-22 71,-22 96,0 H 217.203125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block5-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#CC9900" stroke-width="2" fill="#FFBF00" d="m 0,20 c 25,-22 71,-22 96,0 H 288.8203125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block6-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#CC9900" stroke-width="2" fill="#FFBF00" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 220.2890625 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block7-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#CC9900" stroke-width="2" fill="#FFBF00" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 290.5546875 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block8-->
+                        
+                            
+                            <!-- - - - - - - - - - - - - - - CONTROLE - - - - - - - - - - - - - - -->
+                        
+                            <h4 class="preventSelect">Controles</h4>
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path id="control_waitSeconds" class="path" stroke="#CF8B17" stroke-width="2" fill="#FFAB19" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 142.71875 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block1-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 120" class="defaultBlock">
+                                <path id="control_repeat" class="path" stroke="#CF8B17" stroke-width="2" fill="#FFAB19" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8  a 4,4 0 0,0 -4,4 v 16 a 4,4 0 0,0 4,4 h  8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 H 156 a 4,4 0 0,1 4,4 v 24  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block2-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 120" class="defaultBlock">
+                                <path id="control_forever" class="path" stroke="#CF8B17" stroke-width="2" fill="#FFAB19" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8  a 4,4 0 0,0 -4,4 v 16 a 4,4 0 0,0 4,4 h  8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 H 156 a 4,4 0 0,1 4,4 v 24  a 4,4 0 0,1 -4,4 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block3-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 120" class="defaultBlock">
+                                <path id="control_if" class="path" stroke="#CF8B17" stroke-width="2" fill="#FFAB19" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8  a 4,4 0 0,0 -4,4 v 16 a 4,4 0 0,0 4,4 h  8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 24  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block4-->
+                        
+                            <div class="containerBlock">
+                                <div class="teste" style="width: 100px; height:30px; position: relative; top: 70px; background-color: #068fff;"></div>
+                                <div class="teste" style="width: 100px; height:30px; position: relative; top: 90px; background-color: #068fff;"></div>
+                                
+                                <svg viewBox="0 0 420 180" class="defaultBlock">
+                                <path id="control_if_else" class="path" stroke="#CF8B17" stroke-width="2" fill="#FFAB19" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8  a 4,4 0 0,0 -4,4 v 16 a 4,4 0 0,0 4,4 h  8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 H 156 a 4,4 0 0,1 4,4 v 24  a 4,4 0 0,1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8  a 4,4 0 0,0 -4,4 v 16 a 4,4 0 0,0 4,4 h  8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 24  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block5-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#CF8B17" stroke-width="2" fill="#FFAB19" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 174.75 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block6-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 140" class="defaultBlock">
+                                <path class="path" stroke="#CF8B17" stroke-width="2" fill="#FFAB19" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 165.8515625 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8  a 4,4 0 0,0 -4,4 v 16 a 4,4 0 0,0 4,4 h  8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 165.8515625 H 165.8515625 a 4,4 0 0,1 4,4 v 24  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block7-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#CF8B17" stroke-width="2" fill="#FFAB19" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 133.1640625 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block8-->
+                            
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 100" class="defaultBlock">
+                                <path class="path" stroke="#CF8B17" stroke-width="2" fill="#FFAB19" d="m 0,20 c 25,-22 71,-22 96,0 H 266.3668975830078 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block9-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#CF8B17" stroke-width="2" fill="#FFAB19" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 214.9765625 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block10-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 80" class="defaultBlock">
+                                <path class="path" stroke="#CF8B17" stroke-width="2" fill="#FFAB19" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 142.77328491210938 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block11-->
+                            
+                            <!-- - - - - - - - - - - - - - - SENSORES - - - - - - - - - - - - - - -->
+                        
+                            <h4 class="preventSelect">Sensores</h4>
+                        
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 303.0388011932373 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"
+                                />
+                                </svg>
+                            </div><!--block1-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 190.74986839294434 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"
+                                />
+                                </svg>
+                            </div><!--block2-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 317.0075931549072 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"
+                                />
+                                </svg>
+                            </div><!--block3-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 268.36693572998047 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block4-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 306.1794662475586 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block5-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 65.3671875 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block6-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 259.4609375 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"
+                                />
+                                </svg>
+                            </div><!--block7-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 168.5390625 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"
+                                />
+                                </svg>
+                            </div><!--block8-->
+                            
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 146.3046875 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block9-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 146.3046875 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block10-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 333.26531982421875 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block11-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 40.46875 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block12-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 84.921875 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block13-->
+                            
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 141.8359375 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"
+                                />
+                                </svg>
+                            </div><!--block14-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 248.28114318847656 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block15-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 115.390625 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block16-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 202.3671875 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block17-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#2E8EB8" stroke-width="2" fill="#5CB1D6" d="m 0,5 m 20,0 H 123.1875 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block18-->
+                            
+                            <!-- - - - - - - - - - - - - - - OPERADORES - - - - - - - - - - - - - - -->
+                        
+                            <h4 class="preventSelect" id="Operadores">Operadores</h4>
+                            
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 93.34375 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block1-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 89.328125 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block2-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 90.2265625 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block3-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 88.4453125 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block4-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 269.8828125 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block5-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 125.34375 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"
+                                />
+                                </svg>
+                            </div><!--block6-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 125.34375 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"
+                                />
+                                </svg>
+                            </div><!--block7-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 125.34375 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"
+                                />
+                                </svg>
+                            </div><!--block8-->
+                            
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 116.8984375 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"
+                                />
+                                </svg>
+                            </div><!--block9-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 125.796875 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"
+                                />
+                                </svg>
+                            </div><!--block10-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 90.6953125 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"
+                                />
+                                </svg>
+                            </div><!--block11-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 225.8826389312744 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block12-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 170.04680061340332 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block13-->
+                            
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 149.63267135620117 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block14-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 206.49207496643066 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"
+                                />
+                                </svg>
+                            </div><!--block15-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 180.9375 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block16-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 183.65625 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block17-->
+                        
+                            <div class="containerBlock">
+                                <svg viewBox="0 0 420 57" class="defaultBlock">
+                                <path class="path" stroke="#389438" stroke-width="2" fill="#59C059" d="m 0,5 m 20,0 H 164.2734375 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"
+                                />
+                                </svg>
+                            </div><!--block18-->
+                        
+                        
+                        </div><!--containerDefaultBlock-->
+
+                    </div><!--container-scrool-aside-->
+
+                </div><!--container-twoParts-block-->
+            
+
+            </div><!--aside-->
+
+            <div id="main" class="main">
+                <div class="divContainerClones">
+                    
+                </div><!--divContainerClones-->
+                <div class="containerTrash">
+                    <div class="trash"><img src="./img/trash.svg" alt=""></div><!--trash-->
+                </div><!--containerTrash-->
+            </div><!--main-->
+            
+            <div class="renderSection">
+                <div class="containerRender">
+                    <div class="contanerRun">
+                        <div class="btnRun"><img src="./img/green-flag.svg" alt=""></div><!--btnRun-->
+                    </div><!--containerRun-->
+                </div>
+            </div><!--renderSection-->
+
+        </div><!--default-interface-->
+    </div><!--container-->
+</body>
+<script src="./script.js"></script>
+</html>
