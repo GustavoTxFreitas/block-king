@@ -1,0 +1,43 @@
+INFORMAÇÕES IMPORTANTES 
+
+ 
+
+Introdução: 
+
+Olá, esse é o Blocking, uma ferramenta de fácil domínio para inovar a programação. Eu, Jony Fernandes da Silva, tenho desenvolvido nos últimos 2 meses o software. Esse texto serve para explicar qual o objetivo desse projeto e quais vantagens ele pode trazer. 
+
+Objetivo: 
+
+Criar um ambiente de desenvolvimento de softwares onde o programador possa ganhar mais velocidade ao programar através de blocos que já contém linhas de código definidas dentro dele, mas que também podem ser alteradas caso o programador mais experiente queira. O objetivo é também permitir com que pessoas que não possuem experiência com a programação possa desenvolver programas complexos e que podem ser exportados para as mais diversas plataformas. Até crianças sem experiência poderão programar softwares complexos tendo em vista que o código será substituído pelos blocos até o término do programa, quando será exportado o conteúdo em uma determinada linguagem de programação e será gerado o executável. 
+
+Como será o funcionamento: 
+
+Os blocos dispostos a esquerda, no "explorador”, oferecem uma ampla quantidade de funcionalidades, o bloco escolhido deve ser arrastado para o meio, onde passará a ser considerado um bloco do projeto. Há um bloco que dá início a todo o programa que será montado, esse deve ser o primeiro a ser colocado, os consecutivos serão executados na ordem em que foram postos, de cima para baixo. Caso não haja o bloco desejado o usuário possui duas opções, caso entenda de programação poderá clicar com o botão direito do mouse sobre o bloco e no menu será encontrada a opção de alterar o código relativo àquele bloco, ou então ele poderá baixar extensões de outros desenvolvedores que disponibilizará outros blocos para o fim escolhido. A ideia é que outras pessoas possam colaborar criando bibliotecas de blocos para fins como, desenvolvimento de jogos 3d, desenvolvimento web, desenvolvimento mobile, entre outros, ao disponibilizarem de forma gratuita ou paga, poderão ser adquiridas na sessão de extensões do software, fazendo com que caso um recurso não seja encontrado o pacote possa suprir a necessidade. Isso também serve para as linguagens de computação que estarão nos blocos, já que poderão ser desenvolvidos blocos nas mais diversas linguagens que existem e baixados como extensão. Além de tudo isso também haverá uma tela de programação em código onde todo o código presente nos blocos serão dispostos em ordem para que o usuário caso possua o conhecimento possa alterar e deixar o programa da forma como desejar 
+
+Em quais linguagens se pode programar no Blocking: 
+
+O software inicialmente terá a opção de programar na linguagem C++, ou seja, cada bloco possuirá comandos em C++, mas isso poderá ser modificado caso o usuário queira adaptar cada bloco ou até mesmo criar sua própria biblioteca de blocos em outras linguagens como Python, Java, Javascript e PHP, haverá também a opção de baixar novas bibliotecas de linguagens já criadas. 
+
+Display:  
+
+Haverá também uma tela que mostra em tempo real o resultado do código. Os usuários poderão importar vários tipos. 
+
+Atualmente: 
+
+O software começou a ser desenvolvido por mim recentemente, mas suas funcionalidades estão sendo atualizadas constantemente, ainda existem muitos erros, mas já consigo imaginar formas de conserta-los. Atualmente já é possível criar um programa que mostra a mensagem “Olá Mundo” na tela através apenas da conexão de dois blocos. Nos últimos meses me concentrei no que já tem da parte visual, na lista dos blocos, para que eles apontassem para o anterior e o sucessor, além da parte de arrastar os blocos e demais funcionalidades. 
+
+Demais Erros presentes: 
+
+Alinhamento dos blocos => Esse talvez é o mais fácil de se consertar, os blocos quando conectados não atuam de modo responsivo, em diferentes tamanhos de tela eles não ficam um embaixo do outro. Caso queira mudar basta ir no arquivo “script.js” e editar na função “followParent” o “X” e “Y” que está na função (Há um valor fixo sendo somado, mexa naquele valor até que fique da forma como quer). 
+
+Exclusão de blocos => o programa apresenta dificuldades para excluir devido a cada bloco ser um objeto em Javascript e o loop for confundir os ids dos blocos depois de excluir o anterior a ele. Caso queira ver mais aperte CNTL+ I e analise através do modo devtools. 
+
+Demais erros => Os demais erros se dão por conta do software ainda estar em desenvolvimento, apesar de no momento apenas um programa ter como ser desenvolvido na ferramenta(o do “Olá Mundo”) esse é apenas o pontapé inicial, já tenho planos para a forma como vou consertar tais erros e entregar a melhor experiência que os usuários poderão ter. 
+
+Como rodar: 
+
+Faça o download dos arquivos e abra a pasta no Visual Studio Code ou no próprio terminal, caso seja no VS Code abra o terminal dele na pasta onde estão os arquivos e escreva “npm install”, para instalar os arquivos necessários para rodar o programa, caso seja no terminal escreva o mesmo comando na pasta onde estão os arquivos. Após isso rode o comando “npm start”, para abrir o programa. 
+
+Conclusão: 
+
+Agradeço a todos que estão leram esse texto e peço que colaborem com o projeto, seja com dicas sobre o código ou outros meios.  
