@@ -1,0 +1,11 @@
+{
+    "name": "cony",
+    "main": "main.js",
+    "version": "1.0.0",
+    "devDependencies": {
+        "electron": "^20.0.0"
+    },
+    "scripts": {
+        "start": "electron ."
+    }
+}
